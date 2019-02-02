@@ -1,0 +1,31 @@
+{
+  "name": "peer-chat-signalhub",
+  "version": "1.0.0",
+  "description": "Signaling server for Peer-Chat app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "signalhub listen $PORT",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codealchemist/peer-chat-signalhub.git"
+  },
+  "keywords": [
+    "signaling",
+    "signal",
+    "peer",
+    "p2p",
+    "socket",
+    "webrtc"
+  ],
+  "author": "Alberto Miranda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codealchemist/peer-chat-signalhub/issues"
+  },
+  "homepage": "https://github.com/codealchemist/peer-chat-signalhub#readme",
+  "dependencies": {
+    "signalhub": "^4.9.0"
+  }
+}
